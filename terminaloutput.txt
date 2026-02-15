@@ -1,0 +1,70 @@
+PS C:\satarupa\workspace\AITravelAgent> python travelagent.py
+================================================================================
+AI Travel Planning Agent (LangChain 1.2.7)
+================================================================================
+
+TRAVEL REQUEST:
+
+Please create a detailed travel plan for:
+
+City1: Paris 2026-02-16
+Eiffel Tower;8am-9am
+Louvre Museum;10am-11am
+Arc de Triomphe;12pm-1pm
+
+City2: Brussels 2026-02-18
+Atonium;9am-11am
+Grand Place;12pm-1pm
+
+
+================================================================================
+
+Calling tool: get_place_details with {'city': 'Paris', 'place_name': 'Eiffel Tower'}
+Calling tool: get_place_details with {'city': 'Paris', 'place_name': 'Louvre Museum'}
+Calling tool: get_place_details with {'city': 'Paris', 'place_name': 'Arc de Triomphe'}
+Calling tool: get_place_details with {'city': 'Brussels', 'place_name': 'Atonium'}
+Calling tool: get_place_details with {'city': 'Brussels', 'place_name': 'Grand Place'}
+Calling tool: get_weather_forecast with {'date': '2026-02-16', 'latitude': 48.8567, 'longitude': 2.2945}
+Calling tool: get_weather_forecast with {'date': '2026-02-17', 'latitude': 48.8567, 'longitude': 2.2945}
+Calling tool: get_weather_forecast with {'date': '2026-02-18', 'latitude': 48.8567, 'longitude': 2.2945}
+Calling tool: get_weather_forecast with {'date': '2026-02-19', 'latitude': 48.8567, 'longitude': 2.2945}
+Calling tool: get_weather_forecast with {'date': '2026-02-18', 'latitude': 50.8503, 'longitude': 4.3517}
+Calling tool: get_weather_forecast with {'date': '2026-02-19', 'latitude': 50.8503, 'longitude': 4.3517}
+Calling tool: get_air_quality with {'latitude': 48.8567, 'longitude': 2.2945}
+Calling tool: get_air_quality with {'latitude': 50.8503, 'longitude': 4.3517}
+
+TRAVEL PLAN:
+=== Here Is the AI assisted TRAVEL PLAN for you ===
+
+CITY 1: Paris - 2026-02-16
+Attractions:
+1. Eiffel Tower - Av. Gustave Eiffel, 75007 Paris, France (8am-9am)
+2. Louvre Museum - 75001 Paris, France (10am-11am)
+3. Arc de Triomphe - Pl. Charles de Gaulle, 75008 Paris, France (12pm-1pm)
+
+Weather: Light rain, 9.7°C
+Clothing: warm jacket and sweater, carry an umbrella
+Umbrella: Yes
+Air Quality: AQI 70 - Good air quality
+Mask Needed: No
+
+CITY 2: Brussels - 2026-02-18
+Attractions:
+1. Atomium - Pl. de l'Atomium 1, 1020 Bruxelles, Belgium (9am-11am)
+2. Grand Place - Grote Markt, 1000 Brussel, Belgium (12pm-1pm)
+
+Weather: Cloudy, 8.7°C
+Clothing: warm jacket and sweater
+Umbrella: No
+Air Quality: AQI 81 - Excellent air quality
+Mask Needed: No
+
+SUMMARY:
+Total Masks Needed: 0
+
+================================================================================
+
+Ask follow-up questions (type 'quit' to exit):
+--------------------------------------------------------------------------------
+
+SataM:

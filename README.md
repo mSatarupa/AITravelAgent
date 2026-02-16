@@ -9,6 +9,7 @@
 - **Weather Forecasting**: 4-day weather predictions with clothing recommendations
 - **Air Quality Monitoring**: Real-time AQI data with mask requirements
 - **Any Cities Worldwide**: Works for any destination, not just examples
+- **Dynamic & Interactive**: Ask questions, modify plans, get instant answers
 
 
 ---
